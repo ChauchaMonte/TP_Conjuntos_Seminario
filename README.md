@@ -50,3 +50,18 @@ C = A inter B
 A                   // Muestra el conjunto
 
 res = A.sum
+
+## Tecnologias usada
+
+  - Python3
+  - Antlr4 ( https://www.antlr.org/ )
+
+## Ejecutar proyecto
+
+  1 - Creamos la arismetica:
+      
+      antlr4 Arismetica.g4
+      
+  2 - Ejecutamos con python3:
+      python3 compilador.py
+    
